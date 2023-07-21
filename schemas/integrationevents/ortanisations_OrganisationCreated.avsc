@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "namespace": "integrationevents.organisation.organisation",
+  "name": "OrganisationCreated",
+  "fields": [
+    {
+      "name": "OrganisationID",
+      "default": null,
+      "type": "string"
+    },
+    {
+      "name": "countryCode",
+      "default": null,
+      "type": "string"
+    },
+    {
+      "name": "_timestamp",
+      "default": null,
+      "type": "long"
+    }
+  ]
+}
